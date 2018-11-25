@@ -9,4 +9,5 @@ RUN cd tsung-1.7.0 && \
     ./configure  && \
     make  && \
     make install
+RUN yum install -y gnuplot perl-Template-Toolkit
 
